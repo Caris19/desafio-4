@@ -1,0 +1,26 @@
+{% extends "template.html" %}
+<title>usuários</title>
+{% block contents %}
+<table id="users">
+    <thead>
+
+        <tr>
+            <th>E-mail</th>
+            <th>Assunto</th>
+            <th>Descrição</th>
+
+        </tr>
+    </thead>
+    
+    {% for users in userDetails %}
+    
+    <tbody>
+        <tr>
+            <td>{{users[1]}}</td>
+            <td>{{users[2]}}</td>
+            <td>{{users[3]}}</td>
+        </tr>
+    </tbody>
+   
+
+    {% endfor %}
