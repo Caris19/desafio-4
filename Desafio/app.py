@@ -7,7 +7,7 @@ try:
         password="124879",
         host="127.0.0.1",
         port=3306,
-        database = "desafio"
+        database = "desafio4"
     )
 except mariadb.Error as e:
    print(f"Error connecting to the database: {e}")

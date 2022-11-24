@@ -3,7 +3,8 @@ body {
 }
 
 .menu{  
-    margin-left: 75%;  
+    margin-left: 75%;
+    margin-top: 3%;  
 }
 
 .logo{
@@ -33,4 +34,18 @@ footer {
     font-weight: bold;
     margin-bottom: 5%;
     text-align: center;
+}
+
+table{
+    background-color: rgb(213 213 225);
+    color:black;
+    padding:25px;
+    border-style: solid;
+    margin:auto;
+    margin-top:8%;
+}
+
+table tr >td{
+    border-style:inset;
+    padding:10px;
 }
