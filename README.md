@@ -1,1 +1,2 @@
-# desafio-4
+# Desafios
+Repositório criado para atividades da disciplina Desenvolvimento Web 1
